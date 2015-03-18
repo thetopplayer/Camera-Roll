@@ -17,6 +17,7 @@
 		7BD301F11AB9B70F00E1239B /* Tutorials.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BD301F01AB9B70F00E1239B /* Tutorials.xcassets */; };
 		7BD301F41AB9B73D00E1239B /* AlbumHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD301F21AB9B73D00E1239B /* AlbumHeader.swift */; };
 		7BD301F51AB9B73D00E1239B /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD301F31AB9B73D00E1239B /* PhotoCell.swift */; };
+		7BD301F71AB9BD8A00E1239B /* StickyHeadersLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD301F61AB9BD8A00E1239B /* StickyHeadersLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		7BD301F01AB9B70F00E1239B /* Tutorials.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Tutorials.xcassets; sourceTree = "<group>"; };
 		7BD301F21AB9B73D00E1239B /* AlbumHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumHeader.swift; sourceTree = "<group>"; };
 		7BD301F31AB9B73D00E1239B /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		7BD301F61AB9BD8A00E1239B /* StickyHeadersLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickyHeadersLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		7BD301E51AB9B5E300E1239B /* Layouts */ = {
 			isa = PBXGroup;
 			children = (
+				7BD301F61AB9BD8A00E1239B /* StickyHeadersLayout.swift */,
 			);
 			name = Layouts;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 			files = (
 				7BD301EB1AB9B65100E1239B /* CameraRollViewController.swift in Sources */,
 				7BD301EF1AB9B6DD00E1239B /* UIImage+Decompression.swift in Sources */,
+				7BD301F71AB9BD8A00E1239B /* StickyHeadersLayout.swift in Sources */,
 				7BD301F41AB9B73D00E1239B /* AlbumHeader.swift in Sources */,
 				7BD301C31AB9B53500E1239B /* AppDelegate.swift in Sources */,
 				7BD301F51AB9B73D00E1239B /* PhotoCell.swift in Sources */,
